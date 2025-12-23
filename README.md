@@ -15,13 +15,13 @@ A lightweight HTTP API proxy for interacting with Windsurf Chat programmatically
 
 ```bash
 # macOS
-/Applications/Windsurf.app/Contents/MacOS/Electron --remote-debugging-port=9222
+/Applications/Windsurf.app/Contents/MacOS/Electron --remote-debugging-port=9222 "--remote-allow-origins=*"
 
 # Windows
-"C:\Users\<user>\AppData\Local\Programs\Windsurf\Windsurf.exe" --remote-debugging-port=9222
+"C:\Users\<user>\AppData\Local\Programs\Windsurf\Windsurf.exe" --remote-debugging-port=9222 "--remote-allow-origins=*"
 
 # Linux
-windsurf --remote-debugging-port=9222
+windsurf --remote-debugging-port=9222 "--remote-allow-origins=*"
 ```
 
 ### 2. Run the Proxy Server
